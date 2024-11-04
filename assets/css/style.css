@@ -478,12 +478,14 @@ section {
 }
 
 .about-img {
-  border-radius: 20px;
-  height: 60%;
-  width: 80%;
-  margin: 30px 0 0 30px; 
-  box-shadow: 0 0px 20px rgba(36, 39, 37, 0.3);
+  border-radius: 20px; /* Keeps rounded corners */
+  height: auto; /* Maintains aspect ratio */
+  width: 100%; /* Sets image width to 100% of its container */
+  max-width: 600px; /* Limits the maximum width for a balanced look */
+  margin: 30px auto; /* Centers the image horizontally */
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Enhances shadow for a softer effect */
   background-position: center;
+  background-size: cover; /* Ensures the image covers the container */
 }
 
 /*--------------------------------------------------------------
