@@ -437,6 +437,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.row {
+    padding-left: 20px; /* Adjust the value to your preference */
+}
+
 .aboutMe {
     text-align: justify; /* Justifies the text */
     max-width: 600px; /* Optional: limits the paragraph width for readability */
