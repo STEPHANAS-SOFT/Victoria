@@ -437,6 +437,14 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.aboutMe {
+    text-align: center;
+    max-width: 600px; /* Optional: limits the paragraph width for readability */
+    margin: 0 auto; /* Centers the paragraph horizontally */
+    line-height: 1.6; /* Optional: improves readability */
+    padding: 20px; /* Optional: adds space around the text */
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
