@@ -437,6 +437,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-row {
+    padding-left: 20px; /* Left padding */
+    padding-top: 20px; /* Top padding */
+}
 
 .aboutMe {
     text-align: justify; /* Justifies the text */
